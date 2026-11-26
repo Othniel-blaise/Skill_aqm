@@ -1,0 +1,18 @@
+{
+  "nom": "Demandes de prix en PDF",
+  "modele": "liste-vers-pdf",
+  "ecran": "/RestrictedUser/priceRequests.aspx?ScreenID=1017985",
+  "fiche": "/RestrictedUser/EditForms/priceRequests.aspx?key={cle}",
+  "colonneNumero": "Numéro de demande de prix",
+  "motifNumero": "DP-[0-9]{2}-[0-9]+",
+  "filtres": {
+    "Statut": "600"
+  },
+  "rapport": "Demande de prix 01",
+  "colonnes": {
+    "fournisseur": "Nom du fournisseur"
+  },
+  "nomFichier": "{fournisseur}_{numero}",
+  "maxDocuments": 200,
+  "parallele": 1
+}

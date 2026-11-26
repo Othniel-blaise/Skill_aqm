@@ -1,0 +1,20 @@
+{
+  "site": "${AQM_SITE}",
+  "pageConnexion": "/Default.aspx",
+  "grilleParDefaut": "ctl00_ContentPlaceHolderMain_SearchBaseRec_ASPxCallbackPanelMaster_ASPxGridViewMaster",
+  "dossierSortie": "sortie",
+  "dossierJournal": "journal",
+  "navigateur": {
+    "canal": "chrome",
+    "largeur": 1600,
+    "hauteur": 1000,
+    "delaiTelechargement": 90000
+  },
+  "connexion": {
+    "identifiant": "#ctl00_ContentPlaceHolderMain_ASPxSplitter_ASPxComboBox_UserLogin_I",
+    "listeUtilisateurs": "[id^=ctl00_ContentPlaceHolderMain_ASPxSplitter_ASPxComboBox_UserLogin_DDD_L_LBI]",
+    "motDePasseFactice": "#ctl00_ContentPlaceHolderMain_ASPxSplitter_ASPxTextBox_Pwd_I_CLND",
+    "motDePasse": "#ctl00_ContentPlaceHolderMain_ASPxSplitter_ASPxTextBox_Pwd_I",
+    "boutonConnexion": "#ctl00_ContentPlaceHolderMain_ASPxSplitter_ASPxButton_Valid"
+  }
+}

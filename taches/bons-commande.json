@@ -1,0 +1,20 @@
+{
+  "nom": "Bons de commande fournisseurs en PDF",
+  "modele": "liste-vers-pdf",
+  "ecran": "/RestrictedUser/purchaseOrders.aspx?ScreenID=1017896",
+  "fiche": "/RestrictedUser/EditForms/purchaseOrders.aspx?key={cle}",
+  "colonneNumero": "Numéro de bon de commande",
+  "motifNumero": "BC-[0-9]{2}-[0-9]+",
+  "filtres": {
+    "Jour(s) dans ce statut": "1",
+    "Statut de la commande": "Imprimé",
+    "Statut": "1100"
+  },
+  "rapport": "${AQM_RAPPORT_BONS_COMMANDE}",
+  "colonnes": {
+    "fournisseur": "Nom du fournisseur"
+  },
+  "nomFichier": "{fournisseur}_{numero}",
+  "maxDocuments": 100,
+  "parallele": 1
+}

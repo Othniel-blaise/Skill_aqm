@@ -1,0 +1,7 @@
+node_modules/
+.env
+.session/
+sortie/
+journal/
+liste.png
+erreur.png
